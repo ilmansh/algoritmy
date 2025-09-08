@@ -1,9 +1,9 @@
 # Стек
 stack = []
-stack.append("А") # добавление элемента
+stack.append("А") # добавление элемента(в конец)
 stack.append("Б")
 print(stack)
-up = stack.pop() # удаление элемента
+up = stack.pop() # удаление элемента(только верхушку)
 print(up)
 print(stack)
 
