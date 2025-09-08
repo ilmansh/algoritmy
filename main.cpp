@@ -17,7 +17,5 @@ int main() {
   cout << "Элемент с индексом 2: " << array[2] << endl;
 
   array.push_back(11);
-  cout << array << endl;
   array.erase(array.begin() + 1); // удаляем второй элемент
-  cout << array << endl;
 }
